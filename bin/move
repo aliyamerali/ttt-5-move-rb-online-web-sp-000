@@ -8,6 +8,6 @@ puts "Welcome to Tic Tac Toe!"
 puts "Where would you like to go?"
 
 position = gets.strip
-
-board = input_to_index(position)
+index = input_to_index(position)
+board = move(index)
 display_board(board)
